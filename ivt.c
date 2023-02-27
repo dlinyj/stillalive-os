@@ -4,8 +4,10 @@
 	
 	Written by maniek86 2022 (c) 
 */
+#include "misc.h"
+#include "typedef.h"
 
-char *ivt = (u8*)0x0000; 
+static char *ivt = (u8*)0x0000; 
 
 void ivt_set_callback(void *function, u8 i) {
     u32 pointer = (void *)function;

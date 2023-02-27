@@ -1,3 +1,5 @@
+#include "typedef.h"
+
 //#define FLOPPY_144_SECTORS_PER_TRACK 18
 
 void resetDisk(u8 drive) {

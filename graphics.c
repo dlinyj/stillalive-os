@@ -5,9 +5,10 @@
 	Written by maniek86 2022 (c) 
 */
 
-#include "memaccess.c"
+#include "memaccess.h"
+#include "typedef.h"
 
-char *vgamem = (u8*)0xB000;
+static char *vgamem = (u8*)0xB000;
 
 // text mode functions
 
